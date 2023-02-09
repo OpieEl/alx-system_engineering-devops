@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ $(chown hello) = ' guillaume']; then
+   chown betty hello
+fi
