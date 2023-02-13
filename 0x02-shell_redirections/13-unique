@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "a b c d e a b d" | tr " " "\n" | sort | uniq -u
